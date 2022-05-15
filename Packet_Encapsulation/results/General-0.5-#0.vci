@@ -1,0 +1,61 @@
+file 46253 1652513606                                           
+version 2
+run General-4-20220514-10:33:24-24680
+attr configname General
+attr datetime 20220514-10:33:24
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=0.5
+attr iterationvarsf 0.5-
+attr measurement $0=0.5
+attr network Lab2
+attr processid 24680
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+param **.sim_time 500s
+param **.next_event_par 1.0/(0.5)
+param **.pck_len_mean 1000
+param **.pck_len_stddev 150
+param **.pck_len_min 26
+param **.pck_len_max 1480
+param **.num_of_hosts 4
+param **.host1.ipAddr.IP_addr 0
+param **.host2.ipAddr.IP_addr 1
+param **.host3.ipAddr.IP_addr 2
+param **.host4.ipAddr.IP_addr 3
+param **.arp_ttl 10s
+param **.host1.eth.MAC_addr 0
+param **.host2.eth.MAC_addr 1
+param **.host3.eth.MAC_addr 2
+param **.host4.eth.MAC_addr 3
+param **.aging_time 1s
+
+vector 0 Lab2.host4.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 1 Lab2 delay:vector ETV
+attr interpolationmode none
+attr source delay
+attr title "delay, vector"
+vector 2 Lab2.host2.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 3 Lab2.host3.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 4 Lab2.host1.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+0	1489 5534 57 8832 1.584900770586 499.507112786167 140 0.010833201374 29.974391159865 499.50711278617 4299.2776826982
+1	7023 21129 57 8859 1.584900770586 499.75994564302 598 4.792e-005 0.000118 0.04872072 4.0692907712e-006
+2	28152 6089 87 8859 3.387434591543 499.75994564302 154 0.001760820194 16.194426718401 499.75994564302 3506.1966001255
+3	34241 5892 95 8840 3.870748941275 499.588041443387 149 0.012633207885 37.701468030358 499.58804144339 5683.1570199626
+4	40133 6118 157 8626 6.993381818912 484.913358944293 155 0.00271670044 28.527368914129 484.91335894429 3302.9408088886
+

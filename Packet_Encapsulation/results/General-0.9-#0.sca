@@ -1,0 +1,90 @@
+version 2
+run General-8-20220514-10:34:06-13416
+attr configname General
+attr datetime 20220514-10:34:06
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=0.9
+attr iterationvarsf 0.9-
+attr measurement $0=0.9
+attr network Lab2
+attr processid 13416
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 8
+attr seedset 8
+param **.sim_time 500s
+param **.next_event_par 1.0/(0.9)
+param **.pck_len_mean 1000
+param **.pck_len_stddev 150
+param **.pck_len_min 26
+param **.pck_len_max 1480
+param **.num_of_hosts 4
+param **.host1.ipAddr.IP_addr 0
+param **.host2.ipAddr.IP_addr 1
+param **.host3.ipAddr.IP_addr 2
+param **.host4.ipAddr.IP_addr 3
+param **.arp_ttl 10s
+param **.host1.eth.MAC_addr 0
+param **.host2.eth.MAC_addr 1
+param **.host3.eth.MAC_addr 2
+param **.host4.eth.MAC_addr 3
+param **.aging_time 1s
+
+statistic Lab2.host1.eth interval:stats
+field count 362
+field mean 1.3809508931641
+field stddev 1.5232031911358
+field min 0.001255572737
+field max 13.22214723352
+field sum 499.90422332541
+field sqrsum 1527.9165977943
+attr interpolationmode none
+attr source interval
+attr title "interval, stats"
+statistic Lab2.host2.eth interval:stats
+field count 350
+field mean 1.4262058210055
+field stddev 1.6895508571665
+field min 0.000898308659
+field max 11.352981990433
+field sum 499.17203735193
+field sqrsum 1708.1712178887
+attr interpolationmode none
+attr source interval
+attr title "interval, stats"
+statistic Lab2.host3.eth interval:stats
+field count 315
+field mean 1.586389510184
+field stddev 1.6332728566163
+field min 0.001824194193
+field max 9.080083367522
+field sum 499.71269570797
+field sqrsum 1630.359168963
+attr interpolationmode none
+attr source interval
+attr title "interval, stats"
+statistic Lab2.host4.eth interval:stats
+field count 361
+field mean 1.379016564812
+field stddev 1.5082720048003
+field min 0.000350858328
+field max 9.975340191906
+field sum 497.82497989712
+field sqrsum 1505.4672922224
+attr interpolationmode none
+attr source interval
+attr title "interval, stats"
+statistic Lab2 delay:stats
+field count 1388
+field mean 8.1245706051873e-005
+field stddev 1.2012083690352e-005
+field min 4.592e-005
+field max 0.00012
+field sum 0.11276904
+field sqrsum 9.36213072e-006
+attr interpolationmode none
+attr source delay
+attr title "delay, stats"
+

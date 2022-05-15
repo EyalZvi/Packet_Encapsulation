@@ -1,0 +1,61 @@
+file 59029 1652513617                                           
+version 2
+run General-5-20220514-10:33:34-3504
+attr configname General
+attr datetime 20220514-10:33:34
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=0.6
+attr iterationvarsf 0.6-
+attr measurement $0=0.6
+attr network Lab2
+attr processid 3504
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 5
+attr seedset 5
+param **.sim_time 500s
+param **.next_event_par 1.0/(0.6)
+param **.pck_len_mean 1000
+param **.pck_len_stddev 150
+param **.pck_len_min 26
+param **.pck_len_max 1480
+param **.num_of_hosts 4
+param **.host1.ipAddr.IP_addr 0
+param **.host2.ipAddr.IP_addr 1
+param **.host3.ipAddr.IP_addr 2
+param **.host4.ipAddr.IP_addr 3
+param **.arp_ttl 10s
+param **.host1.eth.MAC_addr 0
+param **.host2.eth.MAC_addr 1
+param **.host3.eth.MAC_addr 2
+param **.host4.eth.MAC_addr 3
+param **.aging_time 1s
+
+vector 0 Lab2.host2.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 1 Lab2 delay:vector ETV
+attr interpolationmode none
+attr source delay
+attr title "delay, vector"
+vector 2 Lab2.host1.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 3 Lab2.host4.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 4 Lab2.host3.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+0	1487 7622 90 10373 1.812730601112 490.613416704643 193 0.010200293685 17.47185211131 490.61341670464 2837.2870325558
+1	9109 27164 90 10516 1.812730601112 497.791046200728 768 4.448e-005 0.00011768 0.0626112 5.210843264e-006
+2	36273 7017 109 10516 2.523630471295 497.791046200728 177 0.04389808371 20.988992849925 497.79104620073 3210.5587672495
+3	43290 8663 136 10473 3.409961656587 494.981770205294 219 0.003816146851 13.921587020653 494.98177020529 2295.8052751329
+4	51953 7074 155 10500 4.426914885675 497.103295383742 179 0.051595957047 14.661554338447 497.10329538374 2584.961865043
+

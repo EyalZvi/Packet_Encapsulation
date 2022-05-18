@@ -1,0 +1,61 @@
+file 69676 1652513628                                           
+version 2
+run General-6-20220514-10:33:44-24844
+attr configname General
+attr datetime 20220514-10:33:44
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=0.7
+attr iterationvarsf 0.7-
+attr measurement $0=0.7
+attr network Lab2
+attr processid 24844
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 6
+attr seedset 6
+param **.sim_time 500s
+param **.next_event_par 1.0/(0.7)
+param **.pck_len_mean 1000
+param **.pck_len_stddev 150
+param **.pck_len_min 26
+param **.pck_len_max 1480
+param **.num_of_hosts 4
+param **.host1.ipAddr.IP_addr 0
+param **.host2.ipAddr.IP_addr 1
+param **.host3.ipAddr.IP_addr 2
+param **.host4.ipAddr.IP_addr 3
+param **.arp_ttl 10s
+param **.host1.eth.MAC_addr 0
+param **.host2.eth.MAC_addr 1
+param **.host3.eth.MAC_addr 2
+param **.host4.eth.MAC_addr 3
+param **.aging_time 1s
+
+vector 0 Lab2.host4.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 1 Lab2 delay:vector ETV
+attr interpolationmode none
+attr source delay
+attr title "delay, vector"
+vector 2 Lab2.host2.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 3 Lab2.host1.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+vector 4 Lab2.host3.eth interval:vector ETV
+attr interpolationmode none
+attr source interval
+attr title "interval, vector"
+0	1489 8708 68 11856 0.162922069198 499.650199142998 220 0.004411593366 17.373372971961 499.650199143 2560.1353587275
+1	10197 32212 68 11856 0.162922069198 499.650199142998 908 4.936e-005 0.00011792 0.07410312 6.1766213568e-006
+2	42409 8612 76 11775 0.541519187753 496.503445526844 217 0.008235689617 14.326190864375 496.50344552684 2528.6077477487
+3	51021 9117 103 11802 0.918586714492 498.13610861481 230 0.022919500248 14.012450351307 498.13610861481 2415.384426016
+4	60138 9536 130 11818 2.640345101884 498.829041418596 241 0.004543939969 14.157392522439 498.8290414186 2318.7375655503
+
